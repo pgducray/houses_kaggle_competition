@@ -1,4 +1,3 @@
-from sklearn.pipeline import make_pipeline
 from sklearn.compose import ColumnTransformer
 from sklearn.feature_selection import SelectPercentile, mutual_info_regression
 from sklearn.pipeline import make_pipeline
@@ -72,15 +71,15 @@ def create_preproc(X, percentile = 75):
         sklearn.pipeline.Pipeline: un-fitted preprocessor
     """
     preproc_ordinal, feat_ordinal = create_preproc_ordinal()
-    
+
     preproc_numerical = create_preproc_numerical()
     feat_numerical = sorted(X.select_dtypes(
         include=["int64", "float64"]).columns)
-    
+
     preproc_nominal = create_preproc_nominal()
     feat_nominal = sorted(
         list(set(X.columns) - set(feat_numerical) - set(feat_ordinal)))
-    
+
     feature_transformer = ColumnTransformer(
         [
         ("numerical_encoder", preproc_numerical, feat_numerical),
