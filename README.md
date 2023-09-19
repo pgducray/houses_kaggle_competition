@@ -10,12 +10,18 @@
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 During our training at Le Wagon Data Science bootcamp, we practice our freshly learned skills on an open source data base from Kaggle:
-Kaggle / olist
-here is the link
+![<img src='https://wagon-public-datasets.s3.amazonaws.com/data-science-images/ML/kaggle-batch-challenge.png' width=600>](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)
+
+
+
+[![Click to View Kaggle Challenge](https://wagon-public-datasets.s3.amazonaws.com/data-science-images/ML/kaggle-batch-challenge.png)](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)
+
 
 This is a challenge propose by kaggle in which we are provided with housing market of Boston, based on various criteria we are given the associate prices of the houses in the dataset.
 
 Then we are provided with a test dataset for which we need to proivde predicted prices. Kaggle will then allow us to submit our prediction and give us a score on our prediction.
+
+
 
 
 ## Key Finding
@@ -24,3 +30,28 @@ Then we are provided with a test dataset for which we need to proivde predicted 
 ### We first work on preprocessing the data to see which data can help us optimise our prediction.
 ### Then we tried various machine learning models to establish a baseline.
 ### Finally we tried our first Neural Network for our final submit.
+
+## Table Of Contents
+
+ - [Problem Statement](#problem-statement)
+ - [Processing the Data](#processing-the-data)
+ - [Prediction with Machine Learning Model](#prediction-with-machine-learning-model)
+ - [Simple Neural Network](#simple-neural-network)
+ - [Results and Further Improvements](#results-and-further-improvements)
+
+ ## Problem Statement
+
+
+ ## Processing the Data
+The data processing code can be found in [Baseline_pipe Jupyter Notebook](https://github.com/pgducray/houses_kaggle_competition/blob/main/Baseline_pipe.ipynb)
+
+
+
+ ## Prediction with Machine Learning Model
+
+
+## Simple Neural Network
+
+
+
+## Results and Further Improvements
