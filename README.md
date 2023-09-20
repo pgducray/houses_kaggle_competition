@@ -44,7 +44,7 @@ Neural Network are limited to the amount of data available, which Machine Learni
 
 ### Baseline Model
 
-The first submission is a preprocessed baseline model using a [DecisiongTree Regressor]()
+The first submission is a preprocessed baseline model using a DecisiongTree Regressor
 This return a good starting score which is assesed by a Root Mean Square Log Error (RMSLE). An RMSLE of 0.22 means that, on average, our model's predictions of house prices are off by about 22% when compared to the actual prices on a logarithmic scale.
 
 ### Optimised Machine Learning Model
