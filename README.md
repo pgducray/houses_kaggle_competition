@@ -4,7 +4,7 @@
 ![Python version](https://img.shields.io/badge/Python%20version-3.10%2B-lightgrey)
 ![GitHub last commit](https://img.shields.io/github/last-commit/geetakingle/Detecting-Illegal-Fishing)
 ![GitHub repo size](https://img.shields.io/github/repo-size/geetakingle/Detecting-Illegal-Fishing)
-![Type of ML](https://img.shields.io/badge/ML-Supervised%2FSemi--Supervised-red)
+![Type of ML](https://img.shields.io/badge/ML-Supervised%2F)
 ![ML Lib](https://img.shields.io/badge/ML%20Lib-scikit--learn-blueviolet)
 ![License](https://img.shields.io/badge/License-MIT-green)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
