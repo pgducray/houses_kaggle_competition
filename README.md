@@ -69,4 +69,4 @@ Then intead of using Support vector machines (SVMs), I used a basic Neural Netwo
 This returned us a score of 0.164
 
 
-![rawdata](assets_img/cat_feat_hist.png)
+![rawdata](assets_img/submissions.png)
