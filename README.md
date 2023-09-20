@@ -19,21 +19,29 @@ This is a challenge propose by kaggle in which we are provided with housing mark
 Then we are provided with a test dataset for which we need to proivde predicted prices. Kaggle will then allow us to submit our prediction and give us a score on our prediction.
 
 
-
-
-## Key Finding
-
-### In this challenge we explored various ways to optimise our predictions.
-### We first work on preprocessing the data to see which data can help us optimise our prediction.
-### Then we tried various machine learning models to establish a baseline.
-### Finally we tried our first Neural Network for our final submit.
-
-
 The explorative steps and processing of the data can be found in [Baseline_pipe Jupyter Notebook](https://github.com/pgducray/houses_kaggle_competition/blob/main/Baseline_pipe.ipynb)
 
 My first Neural Network can be viewed in [My First Neural Network](https://github.com/pgducray/houses_kaggle_competition/blob/main/my_first_neural_network.ipynb)
 
-In the project, I submitted 3 different predictions to Kaggle.
+In this project, I submitted 3 different predictions to Kaggle.
+
+
+
+## The approach
+
+In this challenge we explored various ways to optimise our predictions.
+We first work on preprocessing the data to see which data can help us optimise our prediction.
+Then we tried various machine learning models to establish a baseline.
+Finally we tried our first Neural Network for our final submit.
+
+## Key Finding
+
+During this exercise, we see that feature engineering have an important impact on the prediction score and training time. It is definitly worth spending the time to do it properly once and have a preprocsseing function that can be used for further traingin.
+
+Additionnaly, a Neural Network is not always the best solution and we should carefully explore the baseline by iterating different machine learning models.
+Of course, my first Neural Network is a very basic one and can be greatly enhance which also add more complexity.
+Neural Network are limited to the amount of data available, which Machine Learning Model advantages when analysising smaller datasets.
+
 ### Baseline Model
 
 The first submission is a preprocessed baseline model using a [DecisiongTree Regressor]()
@@ -62,12 +70,3 @@ This returned us a score of 0.164
 
 
 ![rawdata](assets_img/cat_feat_hist.png)
-
-
-## Results and Further Improvements
-
-During this exercise, we see that feature engineering have an important impact on the prediction score and training time. It is definitly worth spending the time to do it properly once and have a preprocsseing function that can be used for further traingin.
-
-Additionnaly, a Neural Network is not always the best solution and we should carefully explore the baseline by iterating different machine learning models.
-Of course, my first Neural Network is a very basic one and can be greatly enhance which also add more complexity.
-Neural Network are limited to the amount of data available, which Machine Learning Model advantages when analysising smaller datasets.
