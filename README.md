@@ -2,9 +2,9 @@
 ## My first deep learning model
 
 ![Python version](https://img.shields.io/badge/Python%20version-3.10%2B-lightgrey)
-![GitHub last commit](https://img.shields.io/github/last-commit/geetakingle/houses_kaggle_competition)
-![GitHub repo size](https://img.shields.io/github/repo-size/geetakingle/houses_kaggle_competition)
-![Type of ML](https://img.shields.io/badge/ML-Supervised%2F-red)
+![GitHub last commit](https://img.shields.io/github/last-commit/pgducray/houses_kaggle_competition)
+![GitHub repo size](https://img.shields.io/github/repo-size/pgducray/houses_kaggle_competition)
+![Type of ML](https://img.shields.io/badge/ML-Supervised-red)
 ![ML Lib](https://img.shields.io/badge/ML%20Lib-scikit--learn-blueviolet)
 ![License](https://img.shields.io/badge/License-MIT-green)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
